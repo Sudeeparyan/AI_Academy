@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "ai_academy"
+version = "0.0.1"
+description = "AI Academy"
+authors = ["Sudeep"]
+packages = [{ include = "app"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+python-dotenv = "^1.0.0"
+uvicorn = "^0.25.0"
+fastapi = "^0.111.0"

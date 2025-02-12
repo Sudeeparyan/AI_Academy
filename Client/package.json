@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && powershell -ExecutionPolicy Bypass -File ./build_and_transfer.ps1",
     "lint": "eslint .",
     "preview": "vite preview"
   },
