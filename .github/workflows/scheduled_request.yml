@@ -5,7 +5,7 @@ on:
     - cron: '*/5 * * * *'
 
 jobs:
-    request_job:
+    request-job:
         runs-on: ubuntu-latest
         steps:
             - name: Make GET request
