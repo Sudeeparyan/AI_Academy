@@ -9,4 +9,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Make GET request
-            run: curl -X GET "https://ai-academy.onrender.com"
+            - run: curl -X GET "https://ai-academy.onrender.com"
