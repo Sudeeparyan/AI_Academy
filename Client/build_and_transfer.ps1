@@ -1,7 +1,7 @@
 # Define paths
-$viteProjectPath = "E:\AI_Academy\Client"  # Change this to your Vite project path
+$viteProjectPath = "E:\Github\AI_Academy\Client"  # Change this to your Vite project path
 $buildOutputPath = "$viteProjectPath\dist"        # Default Vite build folder
-$pythonStaticPath = "E:\AI_Academy\Server\static"  # Change this to your Python static folder
+$pythonStaticPath = "E:\Github\AI_Academy\Server\static"  # Change this to your Python static folder
 
 
 # Navigate to Vite project directory
