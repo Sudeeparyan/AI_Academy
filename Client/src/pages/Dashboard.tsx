@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card } from '../components/ui/Card';
 import { Brain, Cloud, Cog } from 'lucide-react';
-
+import Dashboard1 from './Dashboard1';
 const hubs = [
   {
     title: 'AI HUB',
@@ -102,6 +102,9 @@ export function Dashboard() {
             </div>
           </Card>
         </div>
+      </div>
+      <div>
+        <Dashboard1/>
       </div>
     </div>
   );

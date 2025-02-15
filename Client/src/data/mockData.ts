@@ -1,22 +1,22 @@
 import { Author, Course } from '../types';
+import sudeep from './img/SudeepProfile.jpg';
 
 export const authors: Author[] = [
   {
     id: '1',
-    name: 'Dr. Sarah Chen',
+    name: 'Sudeep Aryan G',
     role: 'AI Research Scientist',
-    bio: 'Leading AI researcher with 10+ years of experience in machine learning and neural networks. Previously worked at DeepMind and Google Brain.',
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400',
+    bio: 'Leading Generative AI researcher with 3+ years of experience in machine learning and Deep Learning. Previously working in Soliton Technology.',
+    imageUrl: sudeep,
     links: {
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-      twitter: 'https://twitter.com',
-      website: 'https://example.com',
+      github: 'https://github.com/Sudeeparyan',
+      linkedin: 'https://www.linkedin.com/in/sudeep-aryan/',
+      website: 'https://sudeeparyan.github.io/',
     },
   },
   {
     id: '2',
-    name: 'James Wilson',
+    name: 'Vignesh A',
     role: 'ML Engineering Lead',
     bio: 'Specialized in practical applications of AI in production environments. Author of "Production-Ready ML Systems".',
     imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400',
@@ -31,7 +31,7 @@ export const authors: Author[] = [
 export const courses: Course[] = [
   {
     id: '1',
-    title: 'Neural Networks from Scratch',
+    title: 'Generative AI from Scratch',
     description: 'Build and train neural networks from the ground up. Learn the mathematics and intuition behind deep learning.',
     imageUrl: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=400',
     duration: '8 weeks',

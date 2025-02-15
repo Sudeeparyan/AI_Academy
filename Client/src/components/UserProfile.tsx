@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { User, LogOut, Settings } from 'lucide-react';
+import sudeep from '../data/img/SudeepProfile.jpg';
 
 const userMenu = [
   { label: 'Profile', icon: User, href: '/profile' },
@@ -17,7 +18,7 @@ export function UserProfile() {
         className="flex items-center space-x-2 p-2 rounded-md text-gray-600 dark:text-gray-400 hover:text-purple-500 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
       >
         <img
-          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100"
+          src={sudeep}
           alt="User"
           className="w-8 h-8 rounded-full"
         />

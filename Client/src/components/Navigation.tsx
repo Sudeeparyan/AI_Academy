@@ -25,11 +25,13 @@ export function Navigation() {
               <span className="text-xl font-bold text-gray-900 dark:text-white">AI Academy</span>
             </Link>
           </div>
+          
+            
 
           {/* Search and Actions */}
           <div className="flex items-center space-x-4 ml-auto">
             {/* Search - Desktop */}
-            <div className="hidden md:flex items-center relative">
+            <div className="hidden md:flex items-center relative">                         
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <Search className="h-5 w-5 text-gray-400" />
@@ -42,6 +44,7 @@ export function Navigation() {
               </div>
             </div>
 
+            
             {/* Search - Mobile */}
             <button
               className="md:hidden p-2 text-gray-400 hover:text-purple-500"
@@ -50,6 +53,17 @@ export function Navigation() {
               <Search className="h-5 w-5" />
             </button>
 
+            <div>
+                <a
+                  href="https://sudeep-knowledge-base.onrender.com/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600 transition duration-150 ease-in-out"
+                >
+                  AI Knowledge Base
+                </a>
+              </div>   
+              
             {/* Theme Toggle */}
             <ThemeToggle />
 

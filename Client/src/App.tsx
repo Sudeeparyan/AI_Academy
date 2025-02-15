@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { DashboardLayout } from './components/DashboardLayout';
-import { Dashboard } from './pages/Dashboard';
-import { CourseViewer } from './pages/CourseViewer';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { DashboardLayout } from "./components/DashboardLayout";
+import { Dashboard } from "./pages/Dashboard";
+import { CourseViewer } from "./pages/CourseViewer";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <DashboardLayout>
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/static" element={<Dashboard />} />
           <Route path="/ai-hub/basics" element={<CourseViewer />} />
           <Route path="/ai-hub/rag/*" element={<CourseViewer />} />
           <Route path="/ai-hub/*" element={<CourseViewer />} />

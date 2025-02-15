@@ -1,16 +1,17 @@
 import React from 'react';
 import { User, Mail, Phone, MapPin, Link as LinkIcon, Calendar } from 'lucide-react';
 import { Card } from '../components/ui/Card';
+import sudeep from '../data/img/SudeepProfile.jpg';
 
 export function Profile() {
   const user = {
-    name: 'John Doe',
-    email: 'john.doe@example.com',
-    phone: '+1 (555) 123-4567',
-    location: 'San Francisco, CA',
-    website: 'https://johndoe.dev',
+    name: 'Sudeep Aryan G',
+    email: 'sudeeparyang@gmail.com',
+    phone: '+91 8309135484',
+    location: 'Bangalore, India',
+    website: 'https://sudeeparyan.github.io/',
     joinDate: 'January 2024',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400',
+    avatar: sudeep,
     bio: 'Senior AI Developer passionate about machine learning and neural networks. Contributing to open-source projects and teaching others about AI development.',
   };
 
