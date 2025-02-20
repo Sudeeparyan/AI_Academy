@@ -55,7 +55,7 @@ export function Navigation() {
 
             <div>
                 <a
-                  href="https://sudeep-knowledge-base.onrender.com/index.html"
+                  href="https://ai-knowledge-base.onrender.com/index.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600 transition duration-150 ease-in-out"
